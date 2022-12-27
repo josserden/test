@@ -1,5 +1,6 @@
 import { FC } from 'react';
-import { Card, ICardProps } from '..';
+import { Card } from '..';
+import { ICardProps } from '../Card/Card.interface';
 import { WrapperCards } from './CardList.styles';
 
 export interface ICardListProps {
